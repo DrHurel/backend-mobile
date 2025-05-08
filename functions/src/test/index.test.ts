@@ -1,11 +1,11 @@
-const assert = require('assert');
+import * as assert from "assert";
 
-describe('Sample Test Suite', () => {
-    it('should return true for a valid condition', () => {
-        assert.strictEqual(true, true);
-    });
+describe("Sample Test Suite", () => {
+  it("should return true for a valid condition", () => {
+    assert.strictEqual(true, true);
+  });
 
-    it('should return false for an invalid condition', () => {
-        assert.strictEqual(false, false);
-    });
+  it("should return false for an invalid condition", () => {
+    assert.strictEqual(false, false);
+  });
 });

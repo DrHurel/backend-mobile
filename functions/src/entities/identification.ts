@@ -6,4 +6,5 @@ export interface Identification {
     time: string;
     location: string;
     imageUrl: string;
+    parcelId: string;
 }

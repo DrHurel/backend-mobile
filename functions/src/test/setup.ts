@@ -1,9 +1,9 @@
-import { before, after } from 'mocha';
+import {before, after} from "mocha";
 
 before(() => {
-    // Setup code before tests run
+  // Setup code before tests run
 });
 
 after(() => {
-    // Cleanup code after tests run
+  // Cleanup code after tests run
 });
